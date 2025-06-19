@@ -1,17 +1,18 @@
+//This program to demonstrate Trainer sub class or derived class
 package day5.singleheritance;
 
 public class Trainer extends Personjava {
 	private String designation;
 	private String location;
-	public Trainer()
+	public Trainer()//default constructor
 	{
-		super();
+		super();//calling base class constructor
 		this.designation="program trainer";
 		this.location="chennai";
 	}
 	public Trainer(int id,String name,String city,String designation,String location)
 	{
-		super(id,name,city);
+		super(id,name,city);//calling base class parameterized constructor
 		this.designation=designation;
 		this.location=location;
 	}

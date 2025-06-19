@@ -1,20 +1,21 @@
+//This program demonstrates person base class
 package day5.singleheritance;
 
 public class Personjava {
 	private int id;
 	private String name;
 	private String city;
-	public Personjava()
+	public Personjava()//default constructor
 	{
 		this.id=101;
 		this.name="unknown";
 		this.city="chennai";
 	}
-	public Personjava(int id,String name,String city)
+	public Personjava(int id,String name,String city)//paramaterized constructor
 	{
 		this.id=id;
-		this.name="name";
-		this.city="city";
+		this.name=name;
+		this.city=city;
 	}
 	
 	public int getId() {
