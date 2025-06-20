@@ -6,7 +6,7 @@ public class Customerentitymain {
 	private String city;
 	public Customerentitymain(){
 		this.id=101;
-		this.name="Jayashree";
+		this.name="Abi";
 		this.city="Chennai";
 	}
 	public Customerentitymain(int id,String name) {
